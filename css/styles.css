@@ -1,0 +1,63 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+background-color: aqua;
+display: flex;
+justify-content: space-around;
+align-items: center;
+opacity: .8;
+position: sticky;
+top: 0;
+}
+
+header img {
+width: 120px;
+}
+
+ul {
+list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+li a {
+    color: black;
+    background-color: beige;
+    padding: 5px 10px;
+}
+
+.banner {
+    background-image: url(../img/a-flock-of-seagulls-mike-score\ gif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+       height: 280px;
+    width: 100%;
+}
+
+main {
+    margin: 50px 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    margin: 0 auto
+ }
+ 
